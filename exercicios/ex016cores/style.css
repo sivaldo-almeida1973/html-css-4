@@ -1,0 +1,34 @@
+@charset "UTF-8";
+*{
+    font-family: fantasy;
+
+}
+body{
+    background-image:linear-gradient(to bottom, #69e0b3, #BFA099)
+}
+main{
+    background-color: aliceblue;
+    width: 600px;
+    padding: 20px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px #503e3e;
+    border: 0.1px solid;
+}
+p{
+    color: #62a78e;
+    text-align: justify;
+}
+h1{
+    background-color: #BFA099;
+    color:#038C5A;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+    border-radius: 10px;
+    border: 1px solid #BF4158;
+
+}
+h2{
+    color: #BF4158;
+    text-shadow: 1px 1px 1px black;
+}

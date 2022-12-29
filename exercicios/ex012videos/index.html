@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo videos hospedados localmente.</h1>
+    <p>Este video está hospedado no meu proprio servidor</p>
+    <video src="midia/Meuvideo.mp4" width="500px" controls autoplay loop poster="imagens/aviao.png"></video>
+    <video src="midia/Meuvideo.m4v" width="500px" controls autoplay loop poster="imagens/aviao.png"></video>
+    <video src="midia/Meuvideo.ogv" width="500" controls autoplay loop poster="imagens/aviao.png"></video>
+
+    <h1>Essa é a Maneira Mais Correta</h1>
+    <video controls width="560px" poster="imagens/aviao.png">
+        <source src="midia/meuvideo.mp4" type="video/mp4">
+        <source src="midia/Meuvideo.m4v" type="video/mp4">
+        <source src="midia/Meuvideo.webm" type="video/webm">
+        <source src="midia/Meuvideo.ogv" type="video/ogv">
+        <p>seu navegador nao tem compatibilidade com reproduçao de videos</p>
+    </video>
+
+    <p>Desta forma de Videos hospedados no proprio site do cliente ficara muito caro, nao é muito indicado</p>
+
+    <h1>Inserindo Videos do Yotube</h1>
+    
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/lGeXBfxWZCs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <h1>Inserindo Videos do Vimeo</h1>
+    <iframe src="https://player.vimeo.com/video/313494282?h=4d8ad40d17&autoplay=1&color=ff9933" width="560" height="236" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+
+    <h1>Inserindo Videos do Vimeo</h1>
+<p><a href="https://vimeo.com/313494282">HONO</a> from <a href="https://vimeo.com/benono">Benjamin Ono</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+</body>
+</html>

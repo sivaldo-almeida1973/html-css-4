@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML</title>
+</head>
+<body>
+    <h1>Imagem dinamica</h1>
+    <p>Tente abrir esse site em varios dispositivos ou simplesmente aumente ou diminua o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexivel">
+    </picture>
+    <h1>Reproduzindo Audio</h1>
+    <p>Vamos aprender a reproduzir Audios em HTML5</p>
+    
+    <audio src="midia/Like It Loud - Dyalla.mp3"controls autoplay="audio"></audio>
+    <audio src="midia/Ticklish - Quincas Moreira.mp3" controls autoplay></audio>
+    <!--MP3 OGG WAV -essa de cima é uma maneira mas limitada,mas podemos usar a de baixo-->
+
+
+    <audio preload="metadata" autoplay controls loop>
+
+   <source src="midia/Like It Loud - Dyalla.mp3" type="audio/mpeg">
+   <source src="midia/Like It Loud - Dyalla.ogg" type="audio/ogg">
+   <source src="midia/Like It Loud - Dyalla.wav" type="audio/wav">
+    <!--primeiro vai tentar mp3,depois ogg e por ultimo wav-->
+    </audio>
+    <p>se nao carregar nenhum desses ,infelismente seu navegador nao consegue reproduzir audio. <a href="midia/Like It Loud - Dyalla.mp3">clique aqui para baixar o arquivo mp3</a></p>
+    hre
+
+    
+</body>
+</html>

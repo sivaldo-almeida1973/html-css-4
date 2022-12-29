@@ -1,0 +1,46 @@
+@charset "UTF-8";
+*{
+
+}
+body{
+    background-color: rgb(243, 237, 237);
+    font-size: 2em;
+    font-family: fantasy;
+}
+
+main{
+    background-color: rgb(233, 204, 204);
+    padding: 20px;
+
+    box-shadow: 1px 2px 2px black;
+}
+h1{
+    color: brown;
+     text-align: center;
+     box-shadow: 1px 2px 2px black;
+     text-shadow: 2px 2px 2px black;
+     text-decoration: overline;
+
+}
+h2{
+    color: rgb(110, 94, 4);
+    font-size: 1em;
+    font-family: fantasy;
+    text-shadow: 1px 1px 1px black;
+
+}
+p{
+    color: cadetblue;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    text-shadow: 1px 1px 1px blue;
+    text-indent: 30px;
+}
+img{
+    width: 560px;
+    height: 200px;
+    
+
+}
+
