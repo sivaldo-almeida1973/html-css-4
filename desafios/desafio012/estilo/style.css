@@ -30,7 +30,7 @@ header > h1{
     padding: 50px; /*(text-transform: uppercase;) transforma todos as letras em maiusculas*/
    font-family: var(--fonte2);
    font-variant: small-caps;/*transf em maiusc so que diferente de cima*/
-   font-size: 7vw;/*adapta o tamanho do titulo ao da tela*/
+   font-size: 6vw;/*adapta o tamanho do titulo ao da tela*/
 }
 header > p{
     padding-bottom: 50px;
@@ -42,14 +42,37 @@ section{
     line-height: 2em;/*abre um espaço entre paragrafos*/
     padding-left: 30px;/*afasta os paragrafos da margin*/
     font-family: var(--fonte3);
-    font-size: 3vw;/*adpta o tamanho do paragrafo ao da tela*/
+    font-size: 2.7vw;/*adpta o tamanho do paragrafo ao da tela*/
     
 
 }
+section > p{
+    padding-bottom: 2em;/*dá espaços entre paragrafos*/
+}
+section.imagem{
+    background-color: black;
+    color: white;
+    box-shadow: inset 6px 6px  13px 0px black;/*coloca sobra por dentro da section*/
+    background-attachment: fixed;/*faz a imagem parecer se mover dentro da section*/
+}
+
 section.imagem > p{
     display: inline-block;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.404);
     padding: 5px;
+    text-shadow: 1px 1px 0px black;
+}
+section#img01{
+    background-image: url("../imagens/background001.jpg");
+    background-position: right center;
+    background-size: cover;/*organiza o tamanho da imagem*/
+
+}
+section#img02{
+    background-image: url('../imagens/background002.jpg');
+    background-position: right center;
+    background-size: cover;/*organiza o tamanho da imagem*/
+
 }
 a{
     color: white;
