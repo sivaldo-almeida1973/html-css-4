@@ -1,13 +1,25 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
+}
+
 *{
     margin: 0px;
     padding: 0px;
+    font-size: 1em;
+   
 }
 
-body{
+ html, body{
     min-height: 100%;
-    background-color: antiquewhite;
+    background-color: var(--fonte1);
 }
 header{
     background-color: black;
@@ -15,12 +27,13 @@ header{
     text-align: center;
 }
 header > h1{
-    padding: 50px;
-   /*(text-transform: uppercase;) transforma todos as letras em maiusculas*/
+    padding: 50px; /*(text-transform: uppercase;) transforma todos as letras em maiusculas*/
+   font-family: var(--fonte2);
    font-variant: small-caps;/*transf em maiusc so que diferente de cima*/
+   font-size: 7vw;/*adapta o tamanho do titulo ao da tela*/
 }
 header > p{
-    padding: 50px;
+    padding-bottom: 50px;
 
 }
 section{
@@ -28,11 +41,15 @@ section{
     padding-bottom: 10vh;
     line-height: 2em;/*abre um espaço entre paragrafos*/
     padding-left: 30px;/*afasta os paragrafos da margin*/
+    font-family: var(--fonte3);
+    font-size: 3vw;/*adpta o tamanho do paragrafo ao da tela*/
+    
 
 }
 section.imagem > p{
-    width: 400px;
+    display: inline-block;
     background-color: black;
+    padding: 5px;
 }
 a{
     color: white;
