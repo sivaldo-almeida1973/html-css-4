@@ -14,6 +14,7 @@
            
             width: 500px;
             border-collapse: collapse;
+            position: relative;
            
            
         }
@@ -25,7 +26,7 @@
         caption{
             font-size: 1.5em;
             padding: 4px;
-            background-color: rgb(110, 109, 107);
+            background-color: rgb(61, 60, 58);
             color: white;
             font-weight: bold;
         }
@@ -33,6 +34,24 @@
             background-color: rgb(21, 24, 21);
             color: rgb(15, 221, 67);
            
+        }
+
+        thead > tr > th{
+             position: sticky;
+             top: -1px;
+             background-color: rgb(61, 60, 58);
+          /*quando descer barra de rolagem o eess tag desce junto*/
+
+        }
+
+        tbody tr:nth-child(even){
+            background-color: rgb(214, 170, 170);
+            font-weight: bold;
+        
+        }/*sistema zebrado ou (odd)PAR ou (even)IMPARou ainda (2n-1)*/
+
+        tbody tr:nth-child(odd){
+            background-color: rgb(223, 217, 217);/*sistema zebrado ou (odd)PAR ou (even)IMPARou ainda (2n-1)*/
         }
         .num{
             text-align: right;
