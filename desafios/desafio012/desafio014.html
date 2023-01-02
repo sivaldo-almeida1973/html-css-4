@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 014</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            border-collapse: collapse;
+            width: 500px;
+        }
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+           
+            
+        }
+        th{
+            background-color: rgba(185, 183, 182, 0.712);
+            color: blue;
+        }
+        .exatas{
+            background-color: white;
+        }
+        .humanas{
+            background-color: white;
+        }
+        .total {
+            background-color:darkgray;
+            text-align: left;
+        }
+        
+        .thead > th, th {
+            background-color: darkgrey;
+        }
+    </style>
+</head>
+<body>
+    <h1>Boletim de Notas</h1>
+    <table>
+            <thead>
+                <tr class="thead">
+                    <th rowspan="2" >Área</th>
+                    <th colspan="2" rowspan="2" >Disciplinas</th>
+                        
+                    <th colspan="2" >Notas</th>
+                    <th rowspan="2" >Média</th>
+                   
+                        <tr>
+                            <th>Nota 1</th>
+                            <th>Nota 2</th>
+                            
+                        </tr>
+                    </tr>
+             </thead>
+
+                <tbody>
+                    
+                    <tr>
+                        <th rowspan="4" class="exatas">Exatas</th>
+                        <td colspan="2">Matemática</td>
+                        <td>10</td>
+                        <td>10</td>
+                        <td>10</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Física</td>
+                        <td>10</td>
+                        <td>10</td>
+                        <td>10</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Química</td>
+                        <td>10</td>
+                        <td>10</td>
+                        <td>10</td>
+                        
+                    </tr>
+                    <tr>
+                        <td colspan="2">Biologia</td>
+                        <td>10</td>
+                        <td>10</td>
+                        <td>10</td>
+                    </tr>
+                       
+                
+                </TBody>
+                <tr>
+                    <th colspan="5" class="total
+                    ">Total Média de Exatas</th>
+                    <td style="background-color: rgb(202, 205, 206);">120</td>
+                </tr>
+               
+                <tbody>
+                        <tr>
+                            <th rowspan="2" class="humanas">Humanas</th>
+                            <td colspan="2">História</td>
+                            <td>10</td>
+                            <td>10</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">Geografia</td>
+                            <td>10</td>
+                            <td>10</td>
+                            <td>10</td>
+                        </tr>
+                    
+                </tbody>
+                <tr>
+                    <th colspan="5"  class="total
+                    ">Total Média de Humanas</th>
+                    <td style="background-color:  rgb(202, 205, 206);">60</td>
+                </tr>
+                
+        
+    
+    </table>
+    
+</body>
+</html>
