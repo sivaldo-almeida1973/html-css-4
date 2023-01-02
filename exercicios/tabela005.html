@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicios de Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            border-collapse: collapse;
+            width: 500px;
+        }
+        th, td{
+            border: 1px solid;
+            padding: 10px;
+        }
+        /*
+        col.cnome{
+            background-color: bisque;
+        }
+        col.cgrupo{
+            background-color: rgba(165, 42, 42, 0.678);
+        }
+        */
+        .amarelo{
+            background-color: yellow;
+        }
+        .vermelho{
+            background-color: red;
+        }
+
+    
+
+
+        
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup> 
+           <!-- <col class="cnome">serve para agilizar na hora de mudar colunas
+            <col class="cgrupo" span="3"> nesse caso muda três colunas  -->
+            <col class="amarelo">
+            <col class="vermelho">
+            <col class="amarelo">
+            <col class="vermelho">
+        
+        
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <th>Ana Maria</th>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <th>Alice Moraes</th>
+            <td>F</td>
+            <td>38</td>
+            <td>Engenheira</td>
+        </tr>
+        <tr>
+            <th>Lucas Almeida</th>
+            <td>M</td>
+            <td>22</td>
+            <td>Advogado</td>
+        </tr>
+        <tr>
+            <th>Sivaldo Almeida</th>
+            <td>m</td>
+            <td>49</td>
+            <td>Engenheiro</td>
+        </tr>
+        <tr>
+            <th>Sivaldo Almeida</th>
+            <td>m</td>
+            <td>49</td>
+            <td>Engenheiro</td>
+        </tr>
+        <tr>
+            <th>Sivaldo Almeida</th>
+            <td>m</td>
+            <td>49</td>
+            <td>Engenheiro</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
