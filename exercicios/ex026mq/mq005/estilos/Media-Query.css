@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+@media screen and (min-width:768px) {
+    #burguer{
+        display: none;/*faz (Burguer) sumir com tela acima 768 */
+    }
+    menu{
+        display: block;/*faz Menu aparecer*/
+    }
+    menu > ul > li{
+        display: inline-block; /*coloco Menu lado a lado*/
+    }
+    main{
+        width: 800px;
+    }
+}
